@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-12-07-analiseraisreal/",
+    "title": "Analisando dados da RAIS",
+    "description": "Essa análise teve como objetivo analisar os salários na base da RAIS. Esse projeto foi feito na Semana Data Science na Prática da Curso-R.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-07",
+    "categories": [],
+    "contents": "\r\nNesse relatório estamos interessados em responder a pergunta:\r\n“Quanto ganha um cientista de dados?”\r\nPara isso vamos utilizar a base da RAIS anonimizada\r\nAcessando os dados da RAIS\r\nVamos utilizar o datalake da iniciativa base dos dados.\r\n\r\n\r\n\r\nAbaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.\r\n\r\n<BigQueryConnection>\r\n  Dataset: basedosdados.br_me_rais\r\n  Billing: live-curso-r-bd-2\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-07T21:21:19-03:00",
+    "input_file": "analiseraisreal.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio Semana DSP",
     "description": "Welcome to our new blog, Portfolio Semana DSP. We hope you enjoy \nreading what we have to say!",

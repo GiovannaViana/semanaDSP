@@ -41,16 +41,18 @@ Abaixo está o código que carrega as primeiras 5 linhas da tabela de microdados
 
 # Como eu faço se uso um SGBD (robô que processa e me envia dados)
 
+bigrquery::bq_auth("giovannaviana205@gmail.com")
+
 conexao <- dbConnect(
   bigquery(),
   project = "basedosdados",
   dataset = "br_me_rais",
-  billing = "live-curso-r-bd-2"
+  billing = "live-curso-r-bd-2-334500"
 )
 
 primeiras_cinco_linhas <- collect(head(select(tbl(conexao, "microdados_vinculos"), everything()), 5))
 
-primeiras_cinco_linhas
+knitr::kable(primeiras_cinco_linhas)
 
 ```
 
